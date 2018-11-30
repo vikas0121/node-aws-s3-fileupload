@@ -5,7 +5,7 @@ require('dotenv').config();
 const server = express();
 
 // Ensure that S3 Bucket is properly loaded
-console.log('S3 BUCKET', 'cctecbuckt');
+console.log('S3 BUCKET', 'x');
 
 // Middleware Plugins
 server.use(bodyParser.json());

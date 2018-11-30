@@ -6,10 +6,7 @@ const s3 = new aws.S3({
   // accessKeyId: process.env.AWS_ACCESS_KEY_ID,
   // secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   // region: process.env.AWS_DEFAULT_REGION
-  accessKeyId: 'AKIAIYMEYSRN6XIZP22Q',
-  secretAccessKey: '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',
-  region: 'ap-south-1'
-})
+});
 
 const upload = multer({
   storage: multerS3({
